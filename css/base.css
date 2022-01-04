@@ -318,7 +318,7 @@ canvas {
 	transition: 0.3s;
 }
 .social-button i {
-	font-size: 28px;
+	font-size: 22px;
 }
 .social-button svg {
 	height: 40%;
@@ -384,16 +384,18 @@ canvas {
 .social-button--npmjs::after {
 	background: #c12127;
 }
+.social-button{
+	height: 45px;
+	width: 45px;
+}
+
 @media screen and (max-width:576px) {
 	.content__title{
 		font-size: 50px;
 	}
 	.logo{
-		width: 133px;
-		height: 100px;
+		width: 302px;
+		height: 200px;
 	}
-	.social-button{
-		height: 50px;
-		width: 50px;
-	}
+	
 }
