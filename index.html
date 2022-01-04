@@ -3,11 +3,12 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Autism</title>
+		<title>Equinox</title>
 		<meta name="author" content="wish" />
 		<link rel="shortcut icon" href="favicon.ico">
 		<link rel="stylesheet" href="https://use.typekit.net/uok8swb.css">
 		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<script src="https://kit.fontawesome.com/1701e96119.js" crossorigin="anonymous"></script>
 		<script>
 		document.documentElement.className = "js";
 		var supportsCssVars = function() { var e, t = document.createElement("style"); return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e };
@@ -20,10 +21,29 @@
 			<div class="content">
 				<div id="app"></div>
 				<div class="content__title-wrap">
-					<span class="content__pretitle">Happy Birthday</span>
-					<h2 class="content__title">Salty</h2>
-<!-- 					<a class="content__link" href="https://meet.google.com/kfr-emzb-bfm?pli=1&authuser=1">Join The Orgy Session</a> -->
+					<!-- <span class="content__pretitle">Happy Birthday</span> -->
+					<img class="logo" width="201px" height="150px" src="static/equinox.png"/>
+					<h2 class="content__title">Equinox</h2>
+					<div class="social-buttons">
+						<a href="#" class="social-buttons__button social-button social-button--facebook" aria-label="Facebook">
+						  <i class="fab fa-facebook-f"></i>
+						</a>
+						<a href="#" class="social-buttons__button social-button social-button--linkedin" aria-label="LinkedIn">
+						  <i class="fab fa-linkedin-in"></i>
+						</a>
+						<a href="#" class="social-buttons__button social-button social-button--discord" aria-label="SnapChat">
+						  <i class="fab fa-discord"></i>
+						</a>
+						<a href="#" class="social-buttons__button social-button social-button--twitter" aria-label="GitHub">
+						  <i class="fab fa-twitter"></i>
+						</a>
+						<a href="#" class="social-buttons__button social-button social-button--instagram" aria-label="CodePen">
+						  <i class="fab fa-instagram"></i>
+						</a>
+					  </div>
+					  
 				</div>
+
 			</div>
 		</main>
 		<script src="js/three.min.js"></script>
@@ -99,6 +119,5 @@
 			myApp.loadAssets().then(myApp.init)
 		})()
 		</script>
-		<script src="https://tympanus.net/codrops/adpacks/demoad.js"></script>
 	</body>
 </html>
