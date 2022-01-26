@@ -1586,15 +1586,15 @@ body {
 }
 
 .effect-rotate-left--animate .container-menu {
-  -webkit-transform: translateZ(-1800px) translateX(-50%) rotateY(45deg);
-  transform: translateZ(-1800px) translateX(-50%) rotateY(45deg);
+  -webkit-transform: translateZ(-1000px) translateX(-20%) rotateY(30deg);
+  transform: translateZ(-1000px) translateX(-20%) rotateY(30deg);
   outline: 30px solid #3D84B8
 }
 
 .outer-nav {
   position: absolute;
   top: 50%;
-  left: 55%;
+  left: 75%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   -webkit-transform-style: preserve-3d;
